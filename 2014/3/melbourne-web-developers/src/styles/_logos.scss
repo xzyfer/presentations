@@ -1,0 +1,29 @@
+
+.logo {
+  width: 250px;
+  height: 250px;
+  display: block;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.cssconf {
+  .logo {
+    background-color: hsl(24, 100%, 50%);
+    background-image: url(http://2014.cssconf.com.au/images/logo.svg);
+  }
+}
+
+.jsconf {
+  .logo {
+    background-image: url(http://jsconf.eu/2011/js.png);
+    transform: rotate(180deg);
+  }
+}
+
+.decompress {
+  .logo {
+    background-image: url(/images/decompress.png);
+  }
+}

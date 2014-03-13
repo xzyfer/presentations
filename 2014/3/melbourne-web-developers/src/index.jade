@@ -1,0 +1,139 @@
+doctype html
+html.wf-loading
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    title Would you like modules with that?
+
+    link(rel='stylesheet', type='text/css', href='styles/main.css')
+
+  body
+
+    article
+
+      section.cssconf
+        div.logo
+        h1 CSSConf AU!
+        h4 cssconf.com.au
+
+      section.jsconf
+        div.logo
+        h1 JSConf AU!
+        h4 au.jsconf.com
+
+      section.decompress
+        div.logo
+        h1 Decompress
+        h4 decompress.com.au
+
+      section
+        h1 Would you like modules with that?
+        .mid by
+        .line
+          .me
+          h3 @xzyfer
+
+      section
+        .mid Modules:
+        ul
+          li(data-bespoke-bullet) • Self-contained
+          li(data-bespoke-bullet) • Single responsibility
+          li(data-bespoke-bullet) • Small
+        hr
+
+      section
+        h1 "Node modules"
+
+      section
+        pre
+          code.language-javascript.
+            var thing = require("thing");
+            thing.do("stuff");
+
+      section(data-bespoke-state='fact')
+        h2 Node modules
+        .mid are
+        h1 awesome
+
+      section
+        h1 "CSS modules"
+
+      section
+        pre
+          code
+            $ bower twbs/bootstrap
+
+            @import 'bootstrap';
+
+      section.bootstrap
+        .mid What did you just import:
+        ul
+          li(data-bespoke-bullet) • Grid
+          li(data-bespoke-bullet) • Dropdowns
+          li(data-bespoke-bullet) • Buttons
+          li(data-bespoke-bullet) • Typography
+          li(data-bespoke-bullet) • Navbars
+          li(data-bespoke-bullet) • Modals
+          li(data-bespoke-bullet) • layouts
+          li(data-bespoke-bullet) • ..... and more
+
+      section
+        ul
+          li(data-bespoke-bullet) ✘ Self-contained
+          li(data-bespoke-bullet) ✘ Single responsibility
+          li(data-bespoke-bullet) ✘ Small
+
+      section(data-bespoke-state='yeahnah')
+
+      section
+        h1 But we can do
+          span.feat  better
+
+      section
+        h1
+          a(href="https://github.com/suitcss/suit") Suit
+        h4 @necolas
+
+      section(data-bespoke-state='disgunbgood')
+
+      section
+        h1
+          a(href="https://github.com/inuitcss") Inuit CSS
+        h4 @csswizardry
+
+      section
+        pre
+          code
+            $ bower install suit/component-button;
+
+            @import 'bower_components/suit-button/button.css';
+
+      section
+        .mid What did you just import:
+        ul
+          li(data-bespoke-bullet) • Buttons
+          li(data-bespoke-bullet) • Nothing else
+          li(data-bespoke-bullet) • ... just a button
+
+      section(data-bespoke-state='amazed')
+
+      section(data-bespoke-state='ticked')
+        h2 CSS modules
+        .mid are
+        h1 awesome!
+
+      section(data-bespoke-state='thanks')
+        h1 Thanks!
+        .line
+          .me
+          h3 @xzyfer
+
+    script(src='scripts/scripts.js')
+    script.
+      (function(d) {
+        var config = {
+          kitId: 'axw0iwx',
+          scriptTimeout: 3000
+        },
+        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);

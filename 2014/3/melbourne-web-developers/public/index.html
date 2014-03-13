@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html class="wf-loading">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Would you like modules with that?</title>
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+  </head>
+  <body>
+    <article>
+      <section class="cssconf">
+        <div class="logo"></div>
+        <h1>CSSConf AU!</h1>
+        <h4>cssconf.com.au</h4>
+      </section>
+      <section class="jsconf">
+        <div class="logo"></div>
+        <h1>JSConf AU!</h1>
+        <h4>au.jsconf.com</h4>
+      </section>
+      <section class="decompress">
+        <div class="logo"></div>
+        <h1>Decompress</h1>
+        <h4>decompress.com.au</h4>
+      </section>
+      <section>
+        <h1>Would you like modules with that?</h1>
+        <div class="mid">by</div>
+        <div class="line">
+          <div class="me"></div>
+          <h3>@xzyfer</h3>
+        </div>
+      </section>
+      <section>
+        <div class="mid">Modules:</div>
+        <ul>
+          <li data-bespoke-bullet>• Self-contained</li>
+          <li data-bespoke-bullet>• Single responsibility</li>
+          <li data-bespoke-bullet>• Small</li>
+        </ul>
+        <hr>
+      </section>
+      <section>
+        <h1>"Node modules"</h1>
+      </section>
+      <section>
+        <pre><code class="language-javascript">var thing = require("thing");
+thing.do("stuff");
+</code></pre>
+      </section>
+      <section data-bespoke-state="fact">
+        <h2>Node modules</h2>
+        <div class="mid">are</div>
+        <h1>awesome</h1>
+      </section>
+      <section>
+        <h1>"CSS modules"</h1>
+      </section>
+      <section>
+        <pre><code>$ bower twbs/bootstrap
+@import 'bootstrap';</code></pre>
+      </section>
+      <section class="bootstrap">
+        <div class="mid">What did you just import:</div>
+        <ul>
+          <li data-bespoke-bullet>• Grid</li>
+          <li data-bespoke-bullet>• Dropdowns</li>
+          <li data-bespoke-bullet>• Buttons</li>
+          <li data-bespoke-bullet>• Typography</li>
+          <li data-bespoke-bullet>• Navbars</li>
+          <li data-bespoke-bullet>• Modals</li>
+          <li data-bespoke-bullet>• layouts</li>
+          <li data-bespoke-bullet>• ..... and more</li>
+        </ul>
+      </section>
+      <section>
+        <ul>
+          <li data-bespoke-bullet>✘ Self-contained</li>
+          <li data-bespoke-bullet>✘ Single responsibility</li>
+          <li data-bespoke-bullet>✘ Small</li>
+        </ul>
+      </section>
+      <section data-bespoke-state="yeahnah"></section>
+      <section>
+        <h1>But we can do<span class="feat"> better</span></h1>
+      </section>
+      <section>
+        <h1><a href="https://github.com/suitcss/suit">Suit</a></h1>
+        <h4>@necolas</h4>
+      </section>
+      <section data-bespoke-state="disgunbgood"></section>
+      <section>
+        <h1><a href="https://github.com/inuitcss">Inuit CSS</a></h1>
+        <h4>@csswizardry</h4>
+      </section>
+      <section>
+        <pre><code>$ bower install suit/component-button;
+@import 'bower_components/suit-button/button.css';</code></pre>
+      </section>
+      <section>
+        <div class="mid">What did you just import:</div>
+        <ul>
+          <li data-bespoke-bullet>• Buttons</li>
+          <li data-bespoke-bullet>• Nothing else</li>
+          <li data-bespoke-bullet>• ... just a button</li>
+        </ul>
+      </section>
+      <section data-bespoke-state="amazed"></section>
+      <section data-bespoke-state="ticked">
+        <h2>CSS modules</h2>
+        <div class="mid">are</div>
+        <h1>awesome!</h1>
+      </section>
+      <section data-bespoke-state="thanks">
+        <h1>Thanks!</h1>
+        <div class="line">
+          <div class="me"></div>
+          <h3>@xzyfer</h3>
+        </div>
+      </section>
+    </article>
+    <script src="scripts/scripts.js"></script>
+    <script>
+      (function(d) {
+        var config = {
+          kitId: 'axw0iwx',
+          scriptTimeout: 3000
+        },
+        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);
+    </script>
+  </body>
+</html>
